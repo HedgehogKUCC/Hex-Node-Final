@@ -3,5 +3,31 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
-    color: $primary;
+    /* 背景圖資源：https://www.toptal.com/designers/subtlepatterns/graph-paper/ */
+    background: url("../images/hip-square.png") repeat center;
+}
+
+.wrap {
+    max-width: 869px;
+    width: 100%;
+    padding: 95px 45px 70px;
+}
+
+.login_register {
+    &_title {
+        font-family: 'Paytone One', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    &-bg {
+        background: #EFECE7;
+    }
+
+    &-shadow {
+        box-shadow: -8px 8px 0px rgba($dark, 0.16);
+    }
+
+    &-fs {
+        font-size: 60px;
+    }
 }
